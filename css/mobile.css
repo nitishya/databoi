@@ -17,6 +17,9 @@
         padding-top: 220px;
         padding-bottom: 100px;
     }
+    .ha {
+        display: none;
+    }
     .home-article {
         flex-direction: column;
     }

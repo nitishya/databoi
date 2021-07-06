@@ -18,18 +18,21 @@
     display: flex;
 }
 
-.nav-left img{
-    padding-top: 50px;    
+.ha {
+    padding-right: 0px;
+    padding-bottom: 17px;
+}
+
+.nav-left img {
+    padding-top: 50px;
     width: 200px;
     height: 100px;
     border-radius: 50%;
 }
 
-
 .nav-left ul {
     display: flex;
     align-items: center;
-    margin: 0 77px;
     font-size: 28px;
     font-weight: bold;
 }
@@ -38,7 +41,6 @@
     list-style: none;
     margin: 0 14px;
     font-family: 'Arial Narrow Bold';
-    
 }
 
 .nav-left ul li a {
@@ -60,10 +62,7 @@
     /*background-color: rgb(172, 161, 235); */
     margin-top: 40px;
     padding: 9px;
-    
 }
-
-
 
 .content-left {
     padding-top: 150px;
@@ -85,67 +84,73 @@
     padding-top: 50px;
     height: 300px;
     border: 2px solid white;
-    
 }
 
-hr{
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+hr {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
 
-.home-articles{
-  padding-top: 12px;  
-  background-color: rgb(241, 237, 241);
+.home-articles {
+    padding-top: 12px;
+    background-color: rgb(241, 237, 241);
 }
 
-.home-article{
-   display: flex;
-   margin: 25px;
-   background-color: rgb(245, 241, 245);
- 
+.home-article {
+    display: flex;
+    margin: 25px;
+    background-color: rgb(245, 241, 245);
 }
 
-.home-article img{
-    width: 300px;   
+.home-article img {
+    width: 300px;
 }
 
-.blinking{
-    animation:blinkingText 1.2s infinite;
-}
-@keyframes blinkingText{
-    0%{     color: red;    }
-    49%{    color: red; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: red;    }
+.blinking {
+    animation: blinkingText 1.2s infinite;
 }
 
-
-
-.home-article-content{ 
- align-self: center;
- padding: 25px;
-  
+@keyframes blinkingText {
+    0% {
+        color: red;
+    }
+    49% {
+        color: red;
+    }
+    60% {
+        color: transparent;
+    }
+    99% {
+        color: transparent;
+    }
+    100% {
+        color: red;
+    }
 }
 
-.home-article-content img{
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content img {
     padding-left: 10px;
     width: 200px;
-    height: 200px; 
-  }
+    height: 200px;
+}
 
-.home-article-content button{
+.home-article-content button {
     background-color: green;
-    font-size:24px
-  }
+    font-size: 24px
+}
 
-.footer{
+.footer {
     height: 50px;
-    background-color: var(--main-bg-color); 
+    background-color: var(--main-bg-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,6 +158,6 @@ hr{
     flex-direction: column;
 }
 
-.footer a{
+.footer a {
     color: white;
 }
