@@ -4,6 +4,8 @@
         margin-bottom: 23px;
     }
     .nav-left {
+        padding-top: 0px;
+        padding-bottom: 0px;
         flex-direction: column;
         text-align: center;
     }
@@ -14,11 +16,12 @@
         display: none;
     }
     .content-left {
-        padding-top: 220px;
-        padding-bottom: 100px;
+        padding-top: 300px;
+        padding-bottom: 120px;
+        font-size: 13px;
     }
     .ha {
-        display: none;
+        padding-top: 0px;
     }
     .home-article {
         flex-direction: column;
