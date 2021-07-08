@@ -13,6 +13,7 @@
     align-items: center;
 }
 
+
 .nav-left {
     font-size: 20px;
     display: flex;
@@ -95,12 +96,23 @@ hr {
     border-width: 1px;
 }
 
+.blog-articles{
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+
+.blog-articles h2{
+    padding-left: 10px;
+    display: flex;   
+} 
+
 .home-articles {
     padding-top: 12px;
     background-color: rgb(241, 237, 241);
 }
 
 .home-article {
+    padding-top: 20px;
     display: flex;
     margin: 25px;
     background-color: rgb(245, 241, 245);

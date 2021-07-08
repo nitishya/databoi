@@ -23,6 +23,14 @@
     .ha {
         padding-top: 0px;
     }
+    .blog-articles{
+        padding-top: 130px;
+        
+        padding-bottom: 10px;
+    }
+    .blog-articles h2{
+        padding-left: 10px;   
+    } 
     .home-article {
         flex-direction: column;
     }
